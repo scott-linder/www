@@ -1,0 +1,152 @@
+html {
+  background-color: #242424;
+  color: #d0d0d0;
+}
+
+h1 {
+  font-size: 1.4em;
+}
+
+h2 {
+  font-size: 1.2em;
+}
+
+h3, h4, h5, h6 {
+  font-size: 1.1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: white;
+}
+
+h1::before {
+  content: '# ';
+  color: #808080;
+}
+
+h2::before {
+  content: '## ';
+  color: #808080;
+}
+
+a {
+  color: #5fd7ff;
+}
+
+a:visited {
+  color: #af87ff;
+}
+
+pre {
+  font-size: 0.9em;
+  max-width: 90ch;
+  overflow: auto;
+  margin: 0 auto;
+}
+
+#content ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1em;
+}
+
+#content ul li {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+#content ul li:before {
+  content: "+";
+  padding-right: 5px;
+}
+
+.c {
+  margin: auto;
+  max-width: 45rem;
+  padding: 0.2em 0.5em;
+}
+
+#header {
+  background-color: #303030;
+  font-family: monospace, monospace;
+  font-size: 1.1rem;
+}
+
+#header a {
+  text-decoration: none;
+  color: #5fd7ff;
+}
+
+#footer {
+  margin-top: 0.8em;
+}
+
+#breadcrumb,
+#navbar {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  text-transform: lowercase;
+}
+
+#header li,
+#footer li {
+  display: inline;
+}
+
+#breadcrumb li::after {
+  content: '/';
+}
+
+#breadcrumb li:first-of-type::before {
+  content: 'scott@www:';
+}
+
+#breadcrumb li:last-of-type::after {
+  content: '$';
+}
+
+#navbar {
+  margin-left: 0.5em;
+}
+
+#navbar li::after {
+  content: '; ';
+}
+
+#navbar li::before {
+  content: 'cd ';
+}
+
+#navbar li:last-of-type::after {
+  content: '';
+}
+
+#footer {
+  font-size: 0.8em;
+  color: #999;
+  border-top: 1px dashed #999;
+  text-align: center;
+  padding: 0;
+}
+
+#footer ul {
+  padding: 0;
+}
+
+#footer li::after {
+  content: ' - ';
+}
+
+#footer li:last-of-type::after {
+  content: '';
+}
+
+.list-date::after {
+  content: ' ⇀ ';
+}
+
+.list-desc::before {
+  content: ' ⇀ ';
+}

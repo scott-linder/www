@@ -1,0 +1,21 @@
+<ul id="breadcrumb">
+{{- template "breadcrumb" (dict "p" . "cur" .) -}}
+</ul>
+{{- define "breadcrumb" -}}
+    {{- if .p.Parent -}}
+        {{- template "breadcrumb" (dict "p" .p.Parent "cur" .) -}}
+    {{- end -}}
+    {{- if .p.IsNode -}}
+        {{- $href := .p.Permalink -}}
+        {{- $title := replace .p.Title " " "-" -}}
+        {{- if .p.IsHome -}}
+            {{- $href = "/" -}}
+            {{- $title = "~" -}}
+        {{- end -}}
+        {{- if eq .p .cur -}}
+            <li>{{ $title }}</li>
+        {{- else -}}
+            <li><a href="{{ $href }}">{{ $title }}</a></li>
+        {{- end -}}
+    {{- end -}}
+{{- end -}}

@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/stringy
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://scottlinder.com
+  * I am stringy (https://keybase.io/stringy) on keybase.
+  * I have a public key ASBWuNdoWi3Y0u35wQtd8kRH1OXfdvfDfmtdcmewRH05Qwo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "012056b8d7685a2dd8d2edf9c10b5df24447d4e5df76f7c37e6b5d7267b0447d39430a",
+            "host": "keybase.io",
+            "kid": "012056b8d7685a2dd8d2edf9c10b5df24447d4e5df76f7c37e6b5d7267b0447d39430a",
+            "uid": "c77ae88d5de660a84b296c4b4355be19",
+            "username": "stringy"
+        },
+        "service": {
+            "hostname": "scottlinder.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.18"
+    },
+    "ctime": 1486590122,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1486590107,
+        "hash": "123a17c63f74ad920c99692c3f411060da0a65fb41c49c9f5ffb17a5a3a20820916e298196d1c48a1988d115f9f27df2b80c6ff46a735726979b4a55430b3bbf",
+        "seqno": 847050
+    },
+    "prev": "7023d2943df28346fa5bdae9ac069b61e463b2a65d68c9cf2f0614e620388016",
+    "seqno": 6,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgVrjXaFot2NLt+cELXfJER9Tl33b3w35rXXJnsER9OUMKp3BheWxvYWTFAvV7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwNTZiOGQ3Njg1YTJkZDhkMmVkZjljMTBiNWRmMjQ0NDdkNGU1ZGY3NmY3YzM3ZTZiNWQ3MjY3YjA0NDdkMzk0MzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNTZiOGQ3Njg1YTJkZDhkMmVkZjljMTBiNWRmMjQ0NDdkNGU1ZGY3NmY3YzM3ZTZiNWQ3MjY3YjA0NDdkMzk0MzBhIiwidWlkIjoiYzc3YWU4OGQ1ZGU2NjBhODRiMjk2YzRiNDM1NWJlMTkiLCJ1c2VybmFtZSI6InN0cmluZ3kifSwic2VydmljZSI6eyJob3N0bmFtZSI6InNjb3R0bGluZGVyLmNvbSIsInByb3RvY29sIjoiaHR0cDoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMTgifSwiY3RpbWUiOjE0ODY1OTAxMjIsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ4NjU5MDEwNywiaGFzaCI6IjEyM2ExN2M2M2Y3NGFkOTIwYzk5NjkyYzNmNDExMDYwZGEwYTY1ZmI0MWM0OWM5ZjVmZmIxN2E1YTNhMjA4MjA5MTZlMjk4MTk2ZDFjNDhhMTk4OGQxMTVmOWYyN2RmMmI4MGM2ZmY0NmE3MzU3MjY5NzliNGE1NTQzMGIzYmJmIiwic2Vxbm8iOjg0NzA1MH0sInByZXYiOiI3MDIzZDI5NDNkZjI4MzQ2ZmE1YmRhZTlhYzA2OWI2MWU0NjNiMmE2NWQ2OGM5Y2YyZjA2MTRlNjIwMzg4MDE2Iiwic2Vxbm8iOjYsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RA5f0TtuY5WJw+4slJQzwiKQixSxiDWKbUJkEm691tCkoEGWUuilhVcU8TPcGhZizgW62MfjaseQOTwVbsP29UCahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEINHnu7rnhIEYFaeWytJjQ6S0Fb8DT9UoljftiXgQL7v3o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/stringy
+
+==================================================================
