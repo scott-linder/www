@@ -44,6 +44,11 @@ pre {
   margin: 0 auto;
 }
 
+#content {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 #content ul {
   list-style: none;
   margin-left: 0;
