@@ -63,7 +63,6 @@ set SEARCH_TERM $argv[1]
 set SEARCH_URI "http://doc.rust-lang.org/std/?search=$SEARCH_TERM"
 set UZBL_FIFO_VIM "/tmp/uzbl_fifo_vim"
 
-01234567890123456789012345678901234567890123456789012345678901234567890123456789
 # Direct existing uzbl instance to search uri, or spawn one if none exists.
 if test -p $UZBL_FIFO_VIM
     echo "uri $SEARCH_URI" > $UZBL_FIFO_VIM
