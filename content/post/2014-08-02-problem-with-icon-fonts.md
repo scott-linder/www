@@ -72,7 +72,7 @@ dawn of NetScape is required), but it is supported in every modern browser, and
 you can still scale and style to your hearts content.
 
 
-[font-awesome]: https://fortawesome.github.io/Font-Awesome/
+[font-awesome]: https://fontawesome.com/
 [private-use-areas]: https://en.wikipedia.org/wiki/Private_Use_Areas
 [ext-ascii]: https://en.wikipedia.org/wiki/Upper_ASCII
 [droid-sans]: https://en.wikipedia.org/wiki/Droid_fonts
