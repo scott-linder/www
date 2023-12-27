@@ -176,9 +176,9 @@ pre {
 }
 
 .list-date::after {
-  content: ' ⇀ ';
+  content: ' : ';
 }
 
 .list-desc::before {
-  content: ' ⇀ ';
+  content: ' : ';
 }
