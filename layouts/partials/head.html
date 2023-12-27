@@ -5,6 +5,7 @@
     <link rel="icon" href="data:,">
     <link rel="stylesheet" href="/normalize.css">
     <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="/syntax.css">
     {{ range .AlternativeOutputFormats -}}
         {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
     {{ end -}}
