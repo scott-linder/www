@@ -18,7 +18,7 @@
   --color-h-before: #808080;
   --color-a-new: #0000ee;
   --color-a-visited: #551a8b;
-  --color-header-bg: white;
+  --color-header-bg: #fafafa;
   --color-footer-border: black;
   --color-footer-fg: black;
 }
@@ -91,7 +91,7 @@ pre {
   padding-right: 5px;
 }
 
-.c {
+.center {
   margin: auto;
   max-width: 45rem;
   padding: 0.2em 0.5em;

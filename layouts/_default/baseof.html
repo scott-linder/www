@@ -4,13 +4,13 @@
     <body>
         {{ block "header" . }}
         <div id="header">
-            <div class="c">
+            <div class="center">
                 {{- partial "breadcrumb.html" . -}}
                 {{- partial "navbar.html" . -}}
             </div>
         </div>
         {{ end }}
-        <div id="content" class="c">
+        <div id="content" class="center">
         {{- block "main" . }}{{- end }}
         </div>
         {{- partial "footer.html" . -}}
