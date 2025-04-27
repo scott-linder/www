@@ -11,10 +11,10 @@ better. The more isolated the better.
 With just $150 and some spare desk space you can set up a backup server. Here's
 an example setup:
 
-* [Raspberry Pi ($40)][rpi]
-* [Powered USB 2.0 Hub ($10)][hub]
-* [SATA to USB 2.0 Adapter ($8)][sata]
-* [Any SATA HDD ($80)][hdd]
+* Raspberry Pi ($40)
+* Powered USB 2.0 Hub ($10)
+* SATA to USB 2.0 Adapter ($8)
+* Any SATA HDD ($80)
 
 ## The Backup ##
 
@@ -67,8 +67,4 @@ experience data loss. There are many nice features that could be added to this
 script (uniquely identifying backups per-host, excluding files via rsync's
 `--filter` flag, etc.), but I'll leave these as exercises to the reader.
 
-[rpi]: http://www.element14.com/community/community/raspberry-pi
-[hub]: http://www.amazon.com/Powered-7-Port-High-Speed-Adapter/dp/B005C32NMS/ref=sr_1_8?ie=UTF8&qid=1401574871&sr=8-8&keywords=powered+usb+hub
-[sata]: http://www.amazon.com/Patuoxun-Converter-Adapter-Cable-Drive/dp/B008ASF5MC/ref=sr_1_1?ie=UTF8&qid=1401574971&sr=8-1&keywords=sata+to+usb+2
-[hdd]: http://www.amazon.com/WD-Green-Desktop-Hard-Drive/dp/B008YAHW6I/ref=sr_1_1?ie=UTF8&qid=1401575025&sr=8-1&keywords=2tb+sata+drive
 [hardlinks]: https://en.wikipedia.org/wiki/Hard_link

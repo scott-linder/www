@@ -13,9 +13,9 @@ documentation](http://doc.rust-lang.org/std/index.html) for their standard
 library as well as a few other crates shipped along with it.
 
 To marry these two seems like a great idea, and I must admit that [someone beat
-me to the punch there](http://damienradtke.com/vim-view-rustdoc/), but I still
-don't find this solution complete for most common browsers (e.g. Firefox,
-Chrome, etc).
+me to the punch there]({{< wayback "http://damienradtke.com/vim-view-rustdoc/"
+>}}), but I still don't find this solution complete for most common browsers
+(e.g. Firefox, Chrome, etc).
 
 The problem is that a new browser window or tab will be opened for each search,
 but this usually just gets in the way. You typically want to see just the
@@ -71,7 +71,7 @@ else
 end
 ```
 
-This is written in [fish shell](http://fishshell.com/), but it could easily be
+This is written in [fish shell](https://fishshell.com/), but it could easily be
 written in any shell or scripting language. I've pushed it to a [GitHub
 repo](https://github.com/scott-linder/vim-rusth), and would welcome pull
 requests with versions written in other languages.
